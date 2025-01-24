@@ -4,14 +4,15 @@
       "descripcion": "Gimnasio Pelayogm",
       "autor": "Pelayogm"
     },
+    "favicon": "src/foto_cyndaquil.ico",
     "cursos": [
-      { "nombre": "Esgrima", "href": "" },
-      { "nombre": "Boxeo", "href": "" },
-      { "nombre": "Natación", "href": "" },
-      { "nombre": "Karate", "href": "" }
+      { "nombre": "Esgrima", "href": "curso_esgrima.html" },
+      { "nombre": "Boxeo", "href": "curso_Boxeo.html" },
+      { "nombre": "Natación", "href": "curso_Natacion.html" },
+      { "nombre": "Karate", "href": "curso_Karate.html" }
     ],
     "contenidoPrincipal": {
-      "imagenPrincipal": "./Karate.jpg",
+      "imagenPrincipal": "./Cursos/Karate.jpg",
       "titulo": "CURSO DE KARATE",
       "descripcion": [
         "¿Quieres ser como Jackie-Chan?",
@@ -26,7 +27,7 @@
         "Los más talentosos que haya en las clases podrán hacer torneos entre clases e incluso en algunos casos regionales, y también torneos entre Gimnasios.",
         "Te divertirás mucho, conocerás gente y sabrás defenderte, hay mucho mangui suelto..."
       ],
-      "imagenTorneo": "./Torneo_Karate.jpg"
+      "imagenTorneo": "./Cursos/Torneo_Karate.jpg"
     }
   }
   
