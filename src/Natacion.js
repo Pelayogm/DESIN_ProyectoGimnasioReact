@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BarraDeNavegacion from "./BarraNavegacion";
 
 const Natacion = () => {
   const [datos, setDatos] = useState(null);
@@ -19,11 +20,11 @@ const Natacion = () => {
   }
 
   return (
+    <>
+    <BarraDeNavegacion/>
     <div>
-      {/* CONTENIDO PRINCIPAL */}
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
-          {/* Barra izquierda */}
           <div className="col col-3 col-md-3 col-lg-3 d-flex align-items-center">
             <div className="barra-container w-100 pt-5">
               {datos.cursos.map((curso, idx) => (
@@ -35,8 +36,6 @@ const Natacion = () => {
               ))}
             </div>
           </div>
-
-          {/* Contenido principal */}
           <div className="col col-9 col-md-9 col-9 border text-white">
             <div className="container-fluid mt-5 text-white">
               <div className="row">
@@ -91,6 +90,8 @@ const Natacion = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
