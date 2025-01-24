@@ -1,0 +1,62 @@
+{
+  "footer": {
+    "logo": {
+      "src": "./Toro_fondo_Negro.png",
+      "alt": "LogoToro"
+    },
+    "copyright": "Pelayogm DESIN © 2025",
+    "secciones": [
+      {
+        "titulo": "Páginas Principales",
+        "links": [
+          {
+            "nombre": "Inicio",
+            "link": "#"
+          },
+          {
+            "nombre": "Iniciar Sesión",
+            "link": "#"
+          },
+          {
+            "nombre": "Crear cuenta",
+            "link": "#"
+          },
+          {
+            "nombre": "Tarifas",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "titulo": "Cursos",
+        "links": [
+          {
+            "nombre": "Esgrima",
+            "link": "#"
+          },
+          {
+            "nombre": "Natación",
+            "link": "#"
+          },
+          {
+            "nombre": "Boxeo",
+            "link": "#"
+          },
+          {
+            "nombre": "Karate",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "titulo": "Máquinas",
+        "links": [
+          {
+            "nombre": "Máquinas",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  }
+}
