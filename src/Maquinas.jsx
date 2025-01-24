@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import BarraDeNavegacion from "./BarraNavegacion";
 import './BarraNavegacion.css'
-import "./Card.jsx";
+import Carta from "./Card.jsx";
 import { useState , useEffect} from "react";
 
 
@@ -11,9 +11,9 @@ function Maquinas() {
 
     useEffect(() => {
         const fetchMaquinas = async () => {
-          const response = await fetch('../public/maquinas.json');
+            const response = await fetch('/maquinas.json');
           const data = await response.json();
-          setMaquinas(data);
+          setMaquinas(data.maquinas);
         };
         fetchMaquinas();
       }, []);
@@ -23,8 +23,10 @@ function Maquinas() {
         <>
         <BarraDeNavegacion/>
         <Container>
-            {maquinas.map((maquinas, index) => (
-                <Card key={index} maquina={maquinas}/>
+            {maquinas.length === 0 ? (
+                <p>No te está cogiendo el json</p>
+            ): maquinas.map((maquina, index) => (
+                <Carta key={index} maquina={maquina}/>
             ))}
         </Container>
         </>
