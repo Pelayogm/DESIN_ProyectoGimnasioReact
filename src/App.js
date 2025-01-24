@@ -6,9 +6,9 @@ import Maquinas from './Maquinas.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <body className="App-header">
         <Maquinas/>
-      </header>
+      </body>
     </div>
   );
 }

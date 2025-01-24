@@ -8,7 +8,7 @@ function BarraDeNavegacion() {
 
     return (
         <>
-        <Navbar bg="dark" fixed="top" expand="sm">
+        <Navbar bg="dark" fixed="top" expand="sm" className='position-fixed'>
         <Container className="d-flex justify-content-between align-items-center general">
             <Navbar.Brand className="navLogo">
                 <img src='/Toro_fondo_Negro.png' alt="Logo Gimnasio" className="logoGimnasio"/>

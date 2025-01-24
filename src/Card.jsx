@@ -2,13 +2,9 @@ import { Card, Col, Button } from "react-bootstrap";
 
 function Carta( {maquina} ) {
     return (
-        <Col md={4} className="mb-4">
+        <Col md={4} lg={4} className="mt-4">
             <Card>
-                <Card.Img
-                    variant="top"
-                    src={maquina.imagen}
-                    alt={maquina.nombre}
-                />
+                <Card.Img variant="top" src={maquina.imagen} alt={maquina.nombre}/>
                 <Card.Body>
                     <Card.Title>{maquina.nombre}</Card.Title>
                     <Card.Text>
