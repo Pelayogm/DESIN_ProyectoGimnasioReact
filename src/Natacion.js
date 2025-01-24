@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BarraDeNavegacion from "./BarraNavegacion";
+import Footer from "./Footer";
 
 const Natacion = () => {
   const [datos, setDatos] = useState(null);
