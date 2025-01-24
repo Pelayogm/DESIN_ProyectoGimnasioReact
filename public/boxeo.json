@@ -11,7 +11,7 @@
     { "nombre": "Karate", "href": "asdasd" }
   ],
   "contenidoPrincipal": {
-    "imagenPrincipal": "./Boxeo.jpg",
+    "imagenPrincipal": "./Cursos/Boxeo.jpg",
     "titulo": "CURSO DE BOXEO",
     "descripcion": [
       "¿Quieres saber defenderte?",
@@ -26,6 +26,6 @@
       "Los más talentosos que haya en las clases podrán hacer torneos entre clases e incluso en algunos casos, torneos regionales y también entre gimnasios.",
       "Te divertirás mucho, conocerás gente y sabrás defenderte. Igual con mucho entreno hasta partes una tabla de un golpe. Dale una oportunidad."
     ],
-    "imagenTorneo": "./Torneo_Boxeo.jpeg"
+    "imagenTorneo": "./Cursos/Torneo_Boxeo.jpeg"
   }
 }
