@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import BarraDeNavegacion from "./BarraNavegacion";
+import Footer from "./Footer";
 
 const Boxeo = () => {
   const [datos, setDatos] = useState(null);
@@ -19,11 +20,11 @@ const Boxeo = () => {
   }
 
   return (
+    <>
+    <BarraDeNavegacion/>
     <div>
-      {/* CONTENIDO PRINCIPAL */}
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
-          {/* Barra izquierda */}
           <div className="col col-3 col-md-3 col-lg-3 d-flex align-items-center text-white">
             <div className="barra-container w-100 pt-5">
               {datos.cursos.map((curso, idx) => (
@@ -91,6 +92,8 @@ const Boxeo = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

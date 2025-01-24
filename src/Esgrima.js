@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Footer";
+import BarraDeNavegacion from "./BarraNavegacion";
 
 const Esgrima = () => {
   const [datos, setDatos] = useState(null);
@@ -19,10 +21,11 @@ const Esgrima = () => {
   }
 
   return (
+    <>
+    <BarraDeNavegacion/>
     <div>
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
-          {/* Barra lateral de cursos */}
           <div className="col-3 d-flex align-items-center">
             <div className="barra-container w-100 pt-5">
               {datos.cursos.map((curso, idx) => (
@@ -35,10 +38,8 @@ const Esgrima = () => {
             </div>
           </div>
 
-          {/* Contenido principal */}
           <div className="col-9 border text-white">
             <div className="container-fluid mt-5">
-              {/* Sección superior: Imagen y descripción */}
               <div className="row">
                 <div className="col-lg-4">
                   <img
@@ -57,7 +58,6 @@ const Esgrima = () => {
                 </div>
               </div>
 
-              {/* Sección inferior: Horario y torneos */}
               <div className="row mt-5">
                 <div className="col-lg-8">
                   <div className="mb-4">
@@ -84,6 +84,8 @@ const Esgrima = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
