@@ -1,35 +1,39 @@
-.general {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+/* Fondo negro y texto blanco para la navbar */
+.bg-black {
+  background-color: black !important;
 }
 
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-text {
+  color: white;
+}
+
+/* Estilo para el título del gimnasio */
 .tituloGimnasio {
-    border-left: 1px solid white;
-    justify-content: center;
-    font-size: 40px;
-    margin-left: 40px;
-    padding-left: 20px;
-  }
+  border-left: 1px solid white;
+  padding-left: 10px;
+  margin: 0;
+}
 
-.navLogo {
-  margin-left: -180px;
-}  
+/* Estilo para las opciones del menú */
+.menuOpciones {
+  justify-content: flex-end;
+  margin-right: 150px;
+  padding: 10px;
+}
 
+/* Ajuste para el dropdown del menú */
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+  justify-content: flex-end;
+}
+
+/* Estilos para la imagen del logo */
 .logoGimnasio {
   border-radius: 15%;
   width: 200px;
   height: 194px;
-}  
-
-  .menuOpciones {
-    justify-content: right;
-    margin-right: 150px;
-    padding: 10px;
-  }
-
-  .navbar-expand-sm .navbar-nav .dropdown-menu {
-    justify-content: right;
-  }
+}
 
   .curso_titulo {
     border-bottom: 1px solid black;
