@@ -11,7 +11,7 @@
         "links": [
           {
             "nombre": "Inicio",
-            "link": "#"
+            "link": "/"
           },
           {
             "nombre": "Iniciar Sesión",
@@ -32,19 +32,19 @@
         "links": [
           {
             "nombre": "Esgrima",
-            "link": "#"
+            "link": "/cursos-disponibles/esgrima"
           },
           {
             "nombre": "Natación",
-            "link": "#"
+            "link": "/cursos-disponibles/natacion"
           },
           {
             "nombre": "Boxeo",
-            "link": "#"
+            "link": "/cursos-disponibles/boxeo"
           },
           {
             "nombre": "Karate",
-            "link": "#"
+            "link": "/cursos-disponibles/karate"
           }
         ]
       },
@@ -53,7 +53,7 @@
         "links": [
           {
             "nombre": "Máquinas",
-            "link": "#"
+            "link": "/maquinas-disponibles"
           }
         ]
       }

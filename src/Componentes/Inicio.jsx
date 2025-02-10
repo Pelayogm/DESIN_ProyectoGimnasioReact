@@ -8,11 +8,9 @@ import MaquinaLista from "../Maquinas/MaquinasLista";
 export default function Inicio() {
     return (
         <>
-            <BarraDeNavegacion/>
-                <CursoProvider>
-                    <CursoLista/>
-                </CursoProvider>
-            <Footer/>
+            <CursoProvider>
+                <CursoLista/>
+            </CursoProvider>
         </>
     )
 }

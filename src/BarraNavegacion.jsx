@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './BarraNavegacion.css'
+import { Link } from 'react-router';
 
 function BarraDeNavegacion() {
 
@@ -21,10 +22,10 @@ function BarraDeNavegacion() {
         <Navbar.Toggle aria-controls="collapsibleNavbar" />
         <Navbar.Collapse id="collapsibleNavbar" className="menuOpciones">
           <Nav>
-            <Nav.Link href="index.html">Inicio</Nav.Link>
+            <Nav.Link as={Link} to={"/"}>Inicio</Nav.Link>
             <NavDropdown title="Actividades" id="basic-nav-dropdown">
-              <NavDropdown.Item href="maquinas.html">Maquinas</NavDropdown.Item>
-              <NavDropdown.Item href="curso_esgrima.html">Cursos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/maquinas-disponibles"}>Maquinas</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/cursos-disponibles"}>Cursos</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="login.html">Iniciar Sesion</Nav.Link>
             <Nav.Link href="crearCuenta.html">Crear cuenta</Nav.Link>

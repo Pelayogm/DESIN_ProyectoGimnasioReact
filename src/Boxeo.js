@@ -21,7 +21,6 @@ const Boxeo = () => {
 
   return (
     <>
-    <BarraDeNavegacion/>
     <div>
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
@@ -92,7 +91,6 @@ const Boxeo = () => {
         </div>
       </div>
     </div>
-    <Footer/>
     </>
   );
 };

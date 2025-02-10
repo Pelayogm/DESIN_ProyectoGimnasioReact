@@ -22,7 +22,6 @@ const Esgrima = () => {
 
   return (
     <>
-    <BarraDeNavegacion/>
     <div>
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
@@ -84,7 +83,6 @@ const Esgrima = () => {
         </div>
       </div>
     </div>
-    <Footer/>
     </>
   );
 };

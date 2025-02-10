@@ -21,7 +21,6 @@ const Natacion = () => {
 
   return (
     <>
-    <BarraDeNavegacion/>
     <div>
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
@@ -90,7 +89,6 @@ const Natacion = () => {
         </div>
       </div>
     </div>
-    <Footer/>
     </>
   );
 };

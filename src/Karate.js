@@ -21,7 +21,6 @@ const Karate = () => {
 
   return (
     <>
-    <BarraDeNavegacion/>
     <div>
       <div className="container-fluid containerPrincipal">
         <div className="row bg-dark">
@@ -91,7 +90,6 @@ const Karate = () => {
         </div>
       </div>
     </div>
-    <Footer/>
     </>
   );
 };
