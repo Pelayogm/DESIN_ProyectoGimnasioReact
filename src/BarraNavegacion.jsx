@@ -11,7 +11,7 @@ function BarraDeNavegacion() {
         <>
     <Navbar expand="sm" className="bg-black navbar-dark mb-4">
       <Container fluid>
-        <Navbar.Brand>
+        <Navbar.Brand as={Link} to={"/"}>
           <img src="/Toro_fondo_Negro.png"alt="LogoToro"className="logoGimnasio"/>
         </Navbar.Brand>
 

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router";
 import Footer from "./Footer";
 import BarraDeNavegacion from "./BarraNavegacion";
 
@@ -28,9 +29,9 @@ const Karate = () => {
             <div className="barra-container w-100 pt-5">
               {datos.cursos.map((curso, idx) => (
                 <div key={idx} className="Curso" style={{ fontSize: "1.8rem", fontWeight: "bold" }}>
-                  <a href={curso.href} className="dropdown-item" style={{ color: "white", textDecoration: "none" }}>
-                    {curso.nombre}
-                  </a>
+                      <Link to={`/cursos-disponibles/${curso.nombre}`} className="dropdown-item" style={{ color: "white", textDecoration: "none" }}>
+                        {curso.nombre}
+                      </Link>
                 </div>
               ))}
             </div>

@@ -1,13 +1,13 @@
 {
   "cursos": [
     {
-      "titulo": "Curso de Boxeo",
+      "titulo": "Boxeo",
       "categoria": "Deportes de Combate",
       "descripcion": "Aprende las bases del boxeo, desde la postura hasta los golpes más efectivos. Ideal para principiantes que desean mejorar su condición física y técnica.",
       "imagen": "./ImagenesCursos/boxeo.jpg"
     },
     {
-      "titulo": "Iniciación a la Esgrima",
+      "titulo": "Esgrima",
       "categoria": "Deportes de Precisión",
       "descripcion": "Descubre las técnicas esenciales de la esgrima, incluyendo ataques, defensas y estrategias. Curso adecuado para todas las edades.",
       "imagen": "./ImagenesCursos/esgrima.jpg"
@@ -19,7 +19,7 @@
       "imagen": "./ImagenesCursos/piscina.jpg"
     },
     {
-      "titulo": "Disciplina del Karate",
+      "titulo": "Karate",
       "categoria": "Artes Marciales",
       "descripcion": "Aprende las bases del karate, incluyendo posturas, golpes y katas. Un curso ideal para quienes buscan mejorar su disciplina y defensa personal.",
       "imagen": "./ImagenesCursos/karate.jpg"

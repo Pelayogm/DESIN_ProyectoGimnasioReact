@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ScrollContext } from "../Providers/ScrollspyProvider";
+import { Link } from "react-router";
 import {Navbar, Container, Nav, Col, Button, Row} from 'react-bootstrap'
 
 export default function Scrollspy() {
@@ -30,7 +31,7 @@ export default function Scrollspy() {
                             <h2 className="border-bottom pb-3">{item.subtitulo}</h2>
                             <p>{item.descripcion}</p>
                             <h3>DISPONIBILIDAD: HOY MISMO</h3>
-                            <Button variant="primary" className="mt-3">
+                            <Button variant="primary" className="mt-3" as={Link} to={"/maquinas-disponibles"}>
                                 Leer más
                             </Button>
                         </Col>

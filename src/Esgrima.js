@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Footer";
 import BarraDeNavegacion from "./BarraNavegacion";
+import { Link } from "react-router";
 
 const Esgrima = () => {
   const [datos, setDatos] = useState(null);
@@ -29,9 +30,9 @@ const Esgrima = () => {
             <div className="barra-container w-100 pt-5">
               {datos.cursos.map((curso, idx) => (
                 <div key={idx} className="Curso">
-                  <a href={curso.href} className="dropdown-item text-white">
-                    {curso.nombre}
-                  </a>
+                      <Link to={`/cursos-disponibles/${curso.nombre}`} className="dropdown-item" style={{ color: "white", textDecoration: "none" }}>
+                        {curso.nombre}
+                      </Link>
                 </div>
               ))}
             </div>

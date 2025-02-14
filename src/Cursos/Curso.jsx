@@ -1,4 +1,5 @@
 import {Card, Button, CardBody, CardTitle, Col} from 'react-bootstrap'
+import { Link } from 'react-router';
 
 const Curso = ({data}) => {
 
@@ -12,7 +13,9 @@ const Curso = ({data}) => {
                     <Card.Text>{data.categoria}</Card.Text>
                     <Card.Text>{data.descripcion}</Card.Text>
                 </CardBody>
-                <Button>Ver detalles</Button>
+                <Button as={Link} to={`/cursos-disponibles/${data.titulo}`}>
+                    Leer más
+                </Button>
             </Card>
         </Col>
         </>

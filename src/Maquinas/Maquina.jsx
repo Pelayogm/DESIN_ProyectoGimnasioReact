@@ -1,4 +1,5 @@
 import { Card, Col, Button } from "react-bootstrap";
+import { Link } from "react-router";
 
 function Maquina({data}) {
     return (
@@ -12,7 +13,7 @@ function Maquina({data}) {
                         <br/>
                         <p>{data.disponibilidad}</p>
                     </Card.Text>
-                    <Button variant="primary" href={data.enlace}>
+                    <Button variant="primary" href={data.enlace} as={Link} to={"/maquinas-disponibles"}>
                         Leer más
                     </Button>
                 </Card.Body>
