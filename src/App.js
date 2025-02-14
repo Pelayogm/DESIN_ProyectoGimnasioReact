@@ -12,6 +12,7 @@ import Boxeo from './Boxeo.js'
 import Natacion from './Natacion.js'
 import Esgrima from './Esgrima.js'
 import Karate from './Karate.js';
+import CrearCuenta from './Componentes/CrearCuenta.jsx';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/cursos-disponibles/esgrima" element={<Esgrima/>}/>
             <Route path="/cursos-disponibles/boxeo" element={<Boxeo/>}/>
             <Route path="/cursos-disponibles/karate" element={<Karate/>}/>
+            <Route path='/crear-cuenta' element={<CrearCuenta/>}/>
           </Routes>
           <Footer/>
       </BrowserRouter>
