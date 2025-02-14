@@ -24,7 +24,7 @@ function App() {
             <Route path='/' element={<Inicio/>}/>
             <Route path="/cursos-disponibles" element={<CursosDisponibles/>}/>
             <Route path="/maquinas-disponibles" element={<MaquinasDisponibles/>}/>
-            <Route path="/cursos-disponibles/natacion" element={<Natacion/>}/>
+            <Route path="/cursos-disponibles/natación" element={<Natacion/>}/>
             <Route path="/cursos-disponibles/esgrima" element={<Esgrima/>}/>
             <Route path="/cursos-disponibles/boxeo" element={<Boxeo/>}/>
             <Route path="/cursos-disponibles/karate" element={<Karate/>}/>
