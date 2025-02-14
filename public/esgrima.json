@@ -23,7 +23,7 @@
     }
   ],
   "contenidoPrincipal": {
-    "imagenPrincipal": "./Cursos/Esgrima.jpg",
+    "imagenPrincipal": "/Cursos/Esgrima.jpg",
     "titulo": "CURSO DE ESGRIMA",
     "descripcion": [
       "En nuestro gimnasio tenemos como novedad el curso de esgrima. ¡Anímate a venir, las plazas son limitadas!"
@@ -35,6 +35,6 @@
       "Los más talentosos que haya en las clases podrán aspirar a participar en la liga Española de Esgrima o incluso en campeonatos mundiales.",
       "Te divertirás mucho, conocerás gente increíble y te pondrás en forma."
     ],
-    "imagenTorneo": "./Cursos/Campeonato_Esgrima.jpg"
+    "imagenTorneo": "/Cursos/Campeonato_Esgrima.jpg"
   }
 }

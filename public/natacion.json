@@ -11,7 +11,7 @@
     { "nombre": "Karate", "href": "curso_Karate.html" }
   ],
   "contenidoPrincipal": {
-    "imagenPrincipal": "./Cursos/Natacion.jpg",
+    "imagenPrincipal": "/Cursos/Natacion.jpg",
     "titulo": "CURSO DE NATACIÓN",
     "descripcion": [
       "¿Quieres nadar como pez en el agua?",
@@ -26,6 +26,6 @@
       "Los más talentosos que haya en las clases podrán participar en competiciones regionales, practicar buceo e incluso competir entre Gimnasios.",
       "Te divertirás mucho, mejorarás tu resistencia física y aprenderás técnicas avanzadas de nado."
     ],
-    "imagenTorneo": "./Cursos/Natacion_Campeonato.jpg"
+    "imagenTorneo": "/Cursos/Natacion_Campeonato.jpg"
   }
 }
