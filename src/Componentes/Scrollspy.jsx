@@ -21,7 +21,7 @@ export default function Scrollspy() {
 
             <Container fluid style={{ height: "600px", overflowY: "scroll" }}>
                 {scrollMaquina.map((item) => (
-                    <Row key={item.id} className={`container-fluid bg-dark text-white p-5`}>
+                    <Row key={item.id} id={item.id} className={`container-fluid bg-dark text-white p-5`}>
                         <Col lg={6} className="text-center">
                             <h1>{item.titulo}</h1>
                             <img src={item.imagen} className="img-fluid" alt={item.titulo} />
