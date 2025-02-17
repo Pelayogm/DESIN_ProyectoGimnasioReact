@@ -15,11 +15,11 @@
           },
           {
             "nombre": "Iniciar Sesión",
-            "link": "#"
+            "link": "/iniciar-sesion"
           },
           {
             "nombre": "Crear cuenta",
-            "link": "#"
+            "link": "/crear-cuenta"
           },
           {
             "nombre": "Tarifas",

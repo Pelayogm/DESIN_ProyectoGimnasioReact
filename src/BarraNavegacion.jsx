@@ -27,7 +27,7 @@ function BarraDeNavegacion() {
               <NavDropdown.Item as={Link} to={"/maquinas-disponibles"}>Maquinas</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/cursos-disponibles"}>Cursos</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to={"/crear-cuenta"}>Iniciar Sesion</Nav.Link>
+            <Nav.Link as={Link} to={"/iniciar-sesion"}>Iniciar Sesion</Nav.Link>
             <Nav.Link as={Link} to={"/crear-cuenta"}>Crear cuenta</Nav.Link>
           </Nav>
         </Navbar.Collapse>

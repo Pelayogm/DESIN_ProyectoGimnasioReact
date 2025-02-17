@@ -13,7 +13,7 @@ export default function Carrousel() {
         </Carousel.Item>
 
         <Carousel.Item>
-        <img className="d-block w-100" src="./Carousel/Piscina.jpg" alt="First slide"/>
+        <img className="d-block w-100" src="./Carousel/Piscina.jpg" alt="Second slide"/>
           <Carousel.Caption className="bg-dark">
             <h3>Piscina Royal</h3>
             <p>Piscina de más de 50m3 de agua climatizada</p>
@@ -21,7 +21,7 @@ export default function Carrousel() {
         </Carousel.Item>
 
         <Carousel.Item>
-        <img className="d-block w-100" src="./Carousel/Paddle.jpg" alt="First slide"/>
+        <img className="d-block w-100" src="./Carousel/Paddle.jpg" alt="Third slide"/>
           <Carousel.Caption className="bg-dark">
             <h3>Pista de padel</h3>
             <p>Premium sensation</p>
